@@ -12,7 +12,7 @@ const typedTodos: ToDo[] = data.todos as ToDo[];
 let todo1: ToDo = typedTodos[0];
 let todo2: ToDo = typedTodos[1];
 
-typedTodos.sort((a, b) => a.userId - b.userId);
+typedTodos.sort((a, b) => a.userId - b.userId); // .toSorted()
 
 console.log(typedTodos);
 
