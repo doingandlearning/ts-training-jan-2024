@@ -1,0 +1,14 @@
+{
+  "name": "02-init",
+  "version": "1.0.0",
+  "description": "My super cool TypeScript project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}

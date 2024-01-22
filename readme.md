@@ -9,7 +9,6 @@
 
 # Timings
 
-
 - 9:30-11 Session 1
 - 11-11.15 Coffee
 - 11.15-12.45 Session 2
