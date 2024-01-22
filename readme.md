@@ -1,8 +1,9 @@
 # Intermediate TypeScript
+
 - January 22nd-24th
 - Kevin Cunningham
 
-- Miro Board: 
+- Miro Board: https://miro.com/app/board/uXjVN3dG2rE=/?share_link_id=963790380912
 - Feedback form: 
 
 
@@ -15,19 +16,18 @@
 - 12.45-1.45 Lunch
 - 1.45-3.15 Session 3
 - 3.15-3.30 Tea
-- 3.30-4.30 S
-
+- 3.30-4.30 Session 4
 
 
 Unit 1: TS Intro - exploring types, interfaces dicts, map and guard types.
 
-Unit 2: Imports and generics - explore how imports work
+Unit 2: Imports - explore how imports work
 
 Unit 3: Exploring the setup of an initial project - package.json, tsconfig.json, src and dist directory
 
 Unit 4: What's new - looking at some es6+ improvements - backticks, arrow functions, default parameters, generators and iterators
 
-Unit 5: Generics - Introducting generics and see how to use them.
+Unit 5: Generics - Introducing generics and see how to use them.
 
 Unit 6: Legacy code - take a small JS library and gradually add TS to it.
 
