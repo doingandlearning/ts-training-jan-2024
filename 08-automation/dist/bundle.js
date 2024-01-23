@@ -16,7 +16,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\nfunction firstElement(a) {\n    return a[0];\n}\nconst a_s = [\"one\", \"two\", \"three\", \"four\"];\nconst a_n = [1, 2, 3, 4];\nconst a_m = [\"one\", 2, \"three\", 4];\nconsole.log(firstElement(a_n));\n\n\n//# sourceURL=webpack://02-init/./src/index.ts?");
+eval("\nfunction firstElement(a) {\n    return a[0];\n}\nconst a_s = [\"one\", \"two\", \"three\", \"four\"];\nconst a_n = [1, 2, 3, 4];\nconst a_m = [\"one\", 2, \"three\", 4];\nconsole.log(firstElement(a_s));\n\n\n//# sourceURL=webpack://02-init/./src/index.ts?");
 
 /***/ })
 
