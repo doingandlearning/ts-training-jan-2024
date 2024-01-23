@@ -1,9 +1,48 @@
-function firstElement(a: any[]) {
-  return a[0];
-}
+console.log("Everything is working fine ... ");
 
-const a_s: string[] = ["one", "two", "three", "four"];
-const a_n: Array<number> = [1, 2, 3, 4];
-const a_m: (string | number)[] = ["one", 2, "three", 4];
+// DOM -> Document Object Model
+console.log(document);
 
-console.log(firstElement(a_s));
+const div = document.querySelector("#app") as HTMLDivElement;
+
+const p = document.createElement("p");
+
+p.textContent = "Welcome to our coffee shop!";
+
+div!.append(p); // optional chaining ...
+
+const obj = { person: { name: { firstName: "Kevin" } } };
+
+const title = document.querySelector("h1");
+title!.textContent = "Coffee Shoppe";
+
+document.body.style.backgroundColor = "black";
+document.body.style.color = "white";
+
+console.log(div.childNodes);
+console.log(div.children);
+
+const shopLocations = ["Glasgow", "Salford", "London", "Belfast"];
+const drinks = ["Americano", "Latte", "Mocha", "Cappacino"];
+
+const shopButton = document.getElementById("shops") as HTMLButtonElement;
+const drinkButton = document.getElementById("drinks") as HTMLButtonElement;
+const results = document.getElementById("results") as HTMLDivElement;
+const inputEl = document.getElementById("test") as HTMLInputElement;
+
+inputEl!.value;
+
+shopButton?.addEventListener("click", () => {
+  let container = "<ul>";
+  shopLocations.forEach((location) => {
+    container += `<li>${location}</li>`;
+  });
+  container += "</ul>";
+  results!.innerHTML = container;
+});
+
+// React
+// Vue
+// jQuery
+
+// Imperative -> Declarative
