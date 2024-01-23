@@ -5,7 +5,7 @@
 
 function findItemInArray<Type, TargetType>(
   arr: Type[],
-  target: TargetType extends Type
+  target: TargetType
 ): TargetType | undefined {
   return arr.find((item) => item === target) as TargetType | undefined;
 }
@@ -14,7 +14,10 @@ const result1 = findItemInArray([1, 2, 3, 4, 5], 4);
 
 result1;
 
-const result2 = findItemInArray<string | number | boolean, string>(["hello", "bonjour", "salve"], "salve");
+const result2 = findItemInArray<string | number | boolean, string>(
+  ["hello", "bonjour", "salve"],
+  "salve"
+);
 
 result2;
 
