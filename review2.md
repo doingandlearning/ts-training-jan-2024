@@ -7,6 +7,12 @@ One and a quarter hours (until tea break)
 #### Objective:
 Build a TypeScript-driven web app to retrieve and display user data, showcasing the benefits of TypeScript in fetching, type safety, DOM manipulation, and error handling.
 
+### Pre-task
+- Copy the `08-automation` directory
+- In your new directory run `npm install` and then `npm run dev`
+- If you make any changes to your `index.html`, you'll need to stop the server (`Ctrl-C`) and restart again `npm run dev`
+- You should be able to open your starting page at `http://localhost:8080` in your web browser.
+
 #### Tasks:
 
 1. **Fetch User Data:**
