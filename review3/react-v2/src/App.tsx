@@ -20,11 +20,15 @@ function App() {
 
   return (
     <div className="app-container">
-      <SearchInput searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-      <CategorySelector category={category} setCategory={setCategory} />
-      <IdInput id={id} setId={setId} />
-      <button className="button" onClick={handleFetch}>Fetch Data</button>
-      {data && <DisplayData data={data} error={error} />}
+      <div className="top">
+        <SearchInput searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+        <CategorySelector category={category} setCategory={setCategory} />
+        <IdInput id={id} setId={setId} />
+        <button className="button" onClick={handleFetch}>Fetch Data</button>
+      </div>
+      <div>
+        {data && <DisplayData data={data} error={error} />}
+      </div>
     </div>
   );
 }
