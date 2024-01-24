@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Unhappy path > add throws for non numbers > [Error: Both arguments must be numbers.] 1`] = `[Error: Both arguments must be numbers.]`;

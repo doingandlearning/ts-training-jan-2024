@@ -1,0 +1,22 @@
+{
+  "name": "02-init",
+  "version": "1.0.0",
+  "description": "My super cool TypeScript project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx --watch src/index.ts",
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "vitest": "^1.2.1"
+  }
+}
